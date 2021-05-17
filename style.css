@@ -1,0 +1,269 @@
+
+:root
+{
+    --primaryColor: #E32E00;
+    --accentColor: #EDEEF4;
+    --textColor: #6b6f81;
+}
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+
+    .top-header, .bottom-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .4rem 2rem;
+    }
+
+    .top-header
+    {
+        background-color: red;
+        color: #fff;
+    }
+
+    .nav-icons ion-icon
+    {
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
+
+    .bottom-header
+    {
+        padding: 1rem 2rem;
+    }
+
+    .brand h5
+    {
+        font-size: 1.5rem;
+    }
+
+    nav ul
+    {
+        display: flex;
+    }
+    
+    nav li
+    {
+        margin-left: 1rem;
+    }
+
+
+    .hero-section
+    {
+        height: 100vh;
+        background-image: url(photos/wall1.jpg);
+        background-size: cover;
+        background-repeat: no repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-section h1
+    {
+        font-size: 4.5rem;
+        color: #fff;
+    }
+
+    .hero-section p
+    {
+        font-size: 2.5rem;
+        color: #fff;
+    }
+
+    .hero-search
+    {
+        padding: 1.4rem 0rem;
+        background-color: var(--accentColor);
+    }
+
+    .wrapper
+    {
+       width: 100%;
+       margin: auto;
+    }
+
+    .selector
+    {
+        width: 100%;
+        height: 40px;
+        border: 1px solid var(--accentColor);
+        display: block;
+        border-radius: 5px;
+        outline: none;
+        padding: .4rem, 1rem;
+    }
+
+    .btn 
+    {
+        height: 40px;
+        padding: 0rem 2rem;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .btn-main
+    {
+        background-color: var(--primaryColor);
+        color: var(--accentColor);
+        border: 1px solid var(--primaryColor);
+    }
+
+    .btn-block
+    {
+        display: block;
+        width: 50%;
+    }
+
+    .vehicle- h3
+    {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .slider
+    {
+        margin-bottom: 1rem;
+        margin-top: .2rem;
+    }
+
+    .slide-img
+    {
+        width: 100%;
+        height: 15pc;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+
+    .slide-badge
+    {
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: .9rem;
+        border-radius: 1.5px;
+        background: #fff;
+        padding: .5rem;
+        font-weight: 200;
+    }
+
+    .slider-info .info
+    {
+        font-size: .9rem;
+        color: rgb(199, 18, 18);
+    }
+
+    .slider-btn
+    {
+        width: 80px;
+        height: 40px;
+        background-color: black;
+        text-align: center;
+        position: absolute;
+        justify-content: center;
+        display: block;
+        
+    }
+
+    .footer-rows{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+
+    .footer
+    {
+        background: rgb(15, 13, 11);
+        padding: 50px;
+    }
+
+    .footer-col
+    {
+        padding: 0 50px;
+        
+    }
+
+    .footer-col h4
+    {
+        text-transform: capitalize;
+        text-shadow: wheat;
+        font-size: 25px;
+        font-weight: 800;
+        color:whitesmoke;
+        margin-bottom: 30px;
+        position: relative;
+        background-color: red;
+    }
+    .footer-col h4::before
+    {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        height: 2px;
+        box-sizing: border-box;
+        background-color: grey;
+        width: 50px;
+    }
+
+    .footer-col ul li a
+    {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.5s ease;
+    }
+
+    .footer-col ul li a:hover
+    {
+        color: white;
+        padding: 10px;
+    }
+
+    .social-media
+    {
+        display: flex;
+    }
+
+    .footer-col .social-media li a i
+    {
+        display: flex;
+        height: 40px;
+        width: 40px;
+        margin: 0 10px 10px 0;
+        text-align: center;
+
+        
+    }
+    .footer-bottom p
+    {
+        align-items: center;
+        text-align: center;
+        color: whitesmoke;
+        padding-top: .6rem;
+    }
+
+
+
+
+   
+
+ 
