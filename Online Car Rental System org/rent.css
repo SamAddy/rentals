@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+
+:root
+{
+    --font-light: #808080;
+    --primary-color: #00fad9;
+
+}
+
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.book
+{
+    box-shadow: 0px 5px 13px -3px rgba(0, 0, 0, 0.75);
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.description, .form
+{
+    width: 40%;
+    padding: 5%;
+}
+
+.description h1
+{
+    text-transform: uppercase;
+    color: var(--font-light);
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.description h1 strong
+{
+    font-weight: 700;
+    color: #000;
+}
+
+.description p
+{
+    color: var(--font-light);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.description ul
+{
+    padding-left: 16px;
+    list-style: circle;
+}
+
+.description ul li
+{
+    margin: 10px 0;
+}
+
+.quote p
+{
+    padding: 2%;
+    list-style-type: disc;
+    font-style: italic;
+    border-left: 4px solid var(--primary-color);
+}
+
+.form
+{
+    background-color: var(--primary-color);
+}
+
+.form form
+{
+    color: var(--font-light);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inpbox.full
+{
+    width: 100%;
+    background: #fff;
+    padding: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inpbox span::before
+{
+    margin-left: 0;
+}
+
+
+.inpbox span
+{
+    padding-right: 10px;
+    border-radius: 2px solid var(--font-light);
+}
+
+.form select
+{
+    border: 0ch;
+    width: 80%;
+    color: var(--font-light);
+    padding: 0 4%;
+}
+
+.form select:focus, .form input:focus
+{
+    outline: none;
+}
+
+.inpbox
+{
+    width: 40%;
+    background: #fff;
+    padding: 3%;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+
+.inrbox
+{
+    width: 32%;
+    color: #000;
+}
+
+
+.inrbox span
+{
+    border: 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+
+}
+
+.form input[type="radio"]
+{
+    width: unset;
+}
+
+button.subt, button.rst
+{
+    padding: 2% 3%;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+}
+
+button.subt
+{
+    margin-right: 3%;
+    background: #fff;
+}
+
+button.description
+{
+    background: #000;
+    color: #fff;
+}
